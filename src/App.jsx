@@ -12,7 +12,7 @@ import {
   CTA,
   FeedbackCard,
   Footer,
-  GetStarted,
+  // GetStarted,
   Hero,
   Navbar,
   Stats,
@@ -44,7 +44,7 @@ const App = () => {
           <CTA />
           <FeedbackCard />
           <Footer />
-          <GetStarted />
+          {/* <GetStarted /> */}
           <Stats />
           <Testimonials />
         </div>
