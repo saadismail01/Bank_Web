@@ -32,7 +32,7 @@ const FeatureCard = ({ icon, title, content, index }) => {
 
 const Business = () => {
   return (
-    <div className="flex justify-between p-10">
+    <div className="flex flex-col justify-between p-10 sm:flex-row">
       <div className="max-w-[520px] space-y-20 pt-10 pb-10">
         <h1 className="text-white text-3xl text-bold font-poppins">
           You do the Business, we`ll handle the money.
