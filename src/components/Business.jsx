@@ -34,7 +34,7 @@ const Business = () => {
   return (
     <div className="flex flex-col justify-between p-10 sm:flex-row">
       <div className="max-w-[520px] space-y-20 pt-10 pb-10">
-        <h1 className="text-white text-3xl text-bold font-poppins">
+        <h1 className="text-white text-3xl font-semibold font-poppins">
           You do the Business, we`ll handle the money.
         </h1>
         <p className=" text-gray-400 font-poppins">
