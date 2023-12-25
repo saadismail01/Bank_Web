@@ -45,11 +45,11 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
-        <button className="p-3 font-poppins text-black bg-blue-gradient rounded-sm">
-          Get Started
-        </button>
+        <Button styes="mt-10" />
       </div>
       <div className={`${layout.sectionImg} flex-col max-w-[520px]`}>
+        <div className="absolute z-[3] -right-[30px] top-0 w-full h-full rounded-full blue__gradient" />
+        <div className="absolute z-[5] -right-[30px] bottom-0 w-[50%] h-[50%] rounded-full pink-gradient" />
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
